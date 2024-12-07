@@ -4,20 +4,6 @@ This project evaluates the performance of Meta's LLaMA 3.1 variants (8B, 70B, 40
 
 ---
 
-## 📋 Table of Contents
-
-- [Introduction](#introduction)
-- [Features](#features)
-- [Workflow](#workflow)
-- [Dataset](#dataset)
-- [Evaluation](#evaluation)
-- [Technologies Used](#technologies-used)
-- [Results](#results)
-- [Future Work](#future-work)
-- [Acknowledgements](#acknowledgements)
-
----
-
 ## 📝 Introduction
 
 The project focuses on converting podcast transcripts into coherent and engaging blogs using LLaMA 3.1 models. Key objectives include:
@@ -53,7 +39,7 @@ The project focuses on converting podcast transcripts into coherent and engaging
    - Models compared using baseline scores.
 
 <p align="center">
-  <img src="path/to/workflow_diagram.png" alt="Workflow Diagram" width="600"/>
+  <img src="https://github.com/abhay-lal/BlogPod/blob/master//Images/summary-flow.png" alt="Workflow Diagram" width="600"/>
 </p>
 
 ---
@@ -76,13 +62,15 @@ Blogs are assessed on:
 - Sentence Structure & Flow
 - Engagement
 - Conciseness
-
+<p align="center">
+  <img src="https://github.com/abhay-lal/BlogPod/blob/master//Images/llm-judge.png" alt="Evaluation Graph" width="600"/>
+</p>
 ### Results Summary
 - Larger models (405B) generally outperform smaller ones in clarity, grammar, tone, and engagement.
 - The 8B model exhibited superior performance in conciseness.
 
 <p align="center">
-  <img src="path/to/evaluation_graph.png" alt="Evaluation Graph" width="600"/>
+  <img src="https://github.com/abhay-lal/BlogPod/blob/master//Images/model-comparison.png" alt="Evaluation Graph" width="600"/>
 </p>
 
 ---
@@ -112,6 +100,14 @@ The 405B model showed overall superior performance but struggled with concisenes
 - **Engagement Optimization**: Reduce redundancy for better blog readability.
 
 ---
+
+## 📋 Prompts Given 
+<p align="center">
+  <img src="https://github.com/abhay-lal/BlogPod/blob/master/Images/Prompts_LLM.png" alt="Evaluation Graph" width="600"/>
+</p>
+<p align="center">
+  <img src="https://github.com/abhay-lal/BlogPod/blob/master/Images/LLM-Judge-prompt.png" alt="Evaluation Graph" width="600"/>
+</p>
 
 ## 🙏 Acknowledgements
 
